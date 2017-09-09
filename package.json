@@ -1,0 +1,24 @@
+{
+  "name": "17monip",
+  "version": "1.0.0",
+  "description": "find country of special ip by 17monip database local. only support country code ,so it is more faster.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abiuDoIT/17monip.git"
+  },
+  "keywords": [
+    "ip",
+    "17monip",
+    "country"
+  ],
+  "author": "abiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abiuDoIT/17monip/issues"
+  },
+  "homepage": "https://github.com/abiuDoIT/17monip#readme"
+}
