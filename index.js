@@ -1,8 +1,8 @@
 const fs = require('fs')
-
-const ipBuffer = fs.readFileSync('./ip.dat');
-const indexBuffer = fs.readFileSync('./index.dat')
-const cc = require('./cc.json')
+const path = require('path')
+const ipBuffer = fs.readFileSync(path.resolve(__dirname,'./ip.dat'));
+const indexBuffer = fs.readFileSync(path.resolve(__dirname,'./index.dat'));
+const cc = require('./cc.json');
 let ccmap = {};
 for(let key in cc){
     ccmap[cc[key]] = key;
