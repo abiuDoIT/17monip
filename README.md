@@ -17,6 +17,7 @@ console.log(country_code);//IR
 
 # how about efficiency
 you can excute index.test.js
+
 on my mac,finding 1000,000 ips only need <200ms
 
 

@@ -5,3 +5,4 @@ index.old.js
 build/
 demo.cc
 binding.gyp
+test.js
